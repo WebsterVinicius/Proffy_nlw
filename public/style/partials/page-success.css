@@ -1,0 +1,34 @@
+body #container {
+    width: 100vw; 
+    max-width: 100vw;
+    height: 100vh;
+
+    background: var(--color-primary);
+    background-image: url('../../images/success-background.svg');
+} 
+
+#content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+body #container #content img {
+    size: 100%;
+    margin-bottom: 1rem;
+}
+
+body #container #content h1 {
+    color: var(--color-title-in-primary);
+    font: 4rem Poppins;
+    margin-bottom: .5rem;
+}
+
+body #container #content p {
+    color: var(--color-text-in-primary);
+    font: 1.5rem Poppins;
+}
