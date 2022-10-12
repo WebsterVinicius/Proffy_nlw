@@ -1,2 +1,2 @@
-# proffy_nlw
-Projeto realizado na next level week
+# Proffy_nlw
+Project carried out at the "next level week" event
